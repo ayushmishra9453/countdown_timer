@@ -64,7 +64,7 @@ function App() {
           onKeyPress={handleKeyPress}
           className='w-full px-4 py-1 border border-solid border-slate-600  rounded bg-[#1B222E] text-white'
         />
-        <div className='py-4 flex items-center justify-center'>
+        <div className='py-4 flex sm:items-center sm:justify-center px-7  md:px-0'>
           <span className='text-[#05ABCD] text-4xl font-bold'>
             {isActive ? (
               <button onClick={pauseTimer}>
